@@ -1,0 +1,21 @@
+#main-head{
+    height: calc(100vh - 54px);
+    background-image: url(https://fastly.picsum.photos/id/129/4910/3252.jpg?hmac=g1KzJMIp75lG_scR48R1baC6TjhVmkEyygSyngKYRsg);
+    background-size: cover;
+}
+.page-section{
+    padding: 6rem 0;
+}
+
+.section-heading{
+    font-weight: bold;
+    margin-bottom: 1rem;
+
+}
+.section-subheading{
+    margin-bottom: 4rem;
+
+}
+a{
+    text-decoration: none;
+}
