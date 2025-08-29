@@ -1,0 +1,121 @@
+#main-head{
+    height: 100vh;
+    background-image: url(https://t4.ftcdn.net/jpg/04/43/70/93/360_F_443709362_wzOioYzGQF6wcJLpDjYmGpQvL5OzQitg.jpg);
+    background-size: cover;
+    
+    
+}
+.page-section{
+    padding: 6rem 0;
+}
+
+.section-heading{
+    font-weight: bold;
+    margin-bottom: 1rem;
+
+}
+.section-subheading{
+    margin-bottom: 4rem;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.navbar{
+   
+     position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color:#35465a;
+   
+    
+}
+.nav-link{
+    color: white;
+}
+#name{
+    font-family:'Exo 2', sans-serif;
+    letter-spacing: 1.5px;
+
+
+}
+#About-head{
+    color: #35465a;
+    font-family: 'Abril Fatface', cursive;
+    transition: margin-left 2s;
+
+}
+#About-head:hover{
+    margin-left: 50px;
+}
+
+#About-script{
+    font-family: 'Pangolin', cursive;
+
+    font-style: italic;
+    text-align: justify;
+    
+}
+.About{
+    /* box-shadow: inset 20px 20px 40px rgb(104, 107, 108); */
+    background-color:rgba(81, 91, 104, 0.3) ;
+    margin: 70px 170px 0 170px;
+    border-radius: 100px;
+    padding:60px 0px;
+    background-image:linear-gradient(to left, #f0f3f4, #787e84);
+    
+}
+body{
+    background-color: #404e5c;
+   
+}
+.page-section{
+    font-family: 'Pangolin', cursive;
+  
+   
+}
+.page-section-sec{
+    font-family: 'Pangolin', cursive;
+    z-index: 1;
+    
+
+}
+#projects{
+    background-image: linear-gradient(115deg,rgba(255, 255, 255, 0.1),rgba(245, 247, 247, 0.3));
+    padding-left: 40px;
+    padding-right: 40px;
+    
+
+}
+#projects > div:first-of-type{
+    padding-top:60px;
+}
+#mine{
+    border: 7px solid #35465a ;
+    border-radius: 25px;
+    /* padding:7px; */
+    box-shadow: 5px 5px 8px black;
+   
+   
+}
+
+
+.page-section i:hover{
+    
+    /* transform: rotateY(115deg); */
+    transform: scale(1.2);
+    transition: 0.5s ease-in;
+    
+
+}
+#cards{
+    box-shadow: 8px 8px 13px black ;
+}
+#contact{
+    background-color: rgb(40, 40, 40);
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
